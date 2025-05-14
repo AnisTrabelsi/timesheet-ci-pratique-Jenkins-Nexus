@@ -6,16 +6,6 @@ public class User {
     private String firstName;
     private String lastName;
 
-    // Constructeur vide
-    public User() {}
-
-    // Constructeur avec tous les champs
-    public User(Long id, String firstName, String lastName) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
     // Getter et Setter pour id
     public Long getId() {
         return id;

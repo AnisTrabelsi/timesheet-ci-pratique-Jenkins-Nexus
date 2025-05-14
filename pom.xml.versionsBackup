@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
-	<version>1.1</version>
+	<version>1.0</version>
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 	<properties>
@@ -28,29 +28,6 @@
 		</dependency> 
 
 
-		<!-- JUnit 5 -->
-		<dependency>
-			  <groupId>org.junit.jupiter</groupId>
-  			<artifactId>junit-jupiter</artifactId>
-	  		<version>5.9.2</version>
-  			<scope>test</scope>
-		</dependency>
-
-<!-- Mockito core -->
-		<dependency>
-  			<groupId>org.mockito</groupId>
-  			<artifactId>mockito-core</artifactId>
-  			<version>5.4.0</version>
-  			<scope>test</scope>
-		</dependency>
-
-<!-- Intégration Mockito + JUnit 5 -->
-		<dependency>
-  			<groupId>org.mockito</groupId>
-  			<artifactId>mockito-junit-jupiter</artifactId>
-  			<version>5.4.0</version>
-  			<scope>test</scope>
-		</dependency>
 
 
 		<dependency>
